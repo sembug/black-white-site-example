@@ -78,6 +78,7 @@ header a {
 .banner {
   position: relative;
 }
+
 .banner p {
   font-size: 24px;
   color: #fff;
@@ -152,7 +153,7 @@ aside p.testimonial {
   line-height: 20px;
   width: 80%;
   position: relative;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 aside .testimonial::before, 
@@ -173,7 +174,7 @@ aside .testimonial::after {
   content: '”';
   position: absolute;
   bottom: -15px;
-  right: 0px;
+  right: -10px;
 }
 
 aside .author {
